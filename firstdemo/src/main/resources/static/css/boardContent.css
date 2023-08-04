@@ -1,0 +1,93 @@
+.rightWrap{
+    height: inherit;
+    display: block;
+    margin-left: 145px;
+}
+
+
+.titleWrap{
+    padding: 100px 50px 0px 50px;
+}
+
+.boardTitle{
+    display: inline;
+    font-weight: 600;
+    font-size: 30px;
+}
+.tagWrap{
+    padding: 50px 50px 0 50px;
+}
+
+.boardTag{
+    display: inline;
+    font-weight: 600;
+    color: grey;
+    font-size: 20px;
+}
+.viewWrap{
+    float: right;
+    font-weight: 600;
+    color: grey;
+    font-size: 20px;
+}
+
+.viewCnt{
+    display:inline;
+    font-weight: 600;
+    color: grey;
+    font-size: 20px;
+}
+
+.writerTimeWrap{
+    padding-top: 10px;
+    font-weight: 600;
+    color: grey;
+    font-size: 20px;
+}
+
+.boardWriter{
+    display:inline;
+}
+.boardWriterId{
+    display:inline;
+}
+.writeTime{
+    padding-top: 10px;
+}
+.viewCntNum{
+    display:inline;
+    font-weight: 600;
+    color: grey;
+    font-size: 20px;
+}
+
+.contentWrap{
+    display: inline-block;
+}
+
+.boardContent{
+    padding: 50px 50px 0 50px;
+    float: left;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.editDelBtnWrap{
+    float: right;
+    padding: 100px;
+}
+
+.editBtn{
+    font-weight: 600;
+    font-size: 20px;
+    background-color: white;
+    cursor: pointer;
+    margin-right: 50px;
+}
+.delBtn{
+    font-weight: 600;
+    font-size: 20px;
+    background-color: white;
+    cursor: pointer;
+}

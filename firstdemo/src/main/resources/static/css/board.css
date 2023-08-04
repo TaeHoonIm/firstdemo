@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.boardWrap{
+    height: inherit;
+    display: block;
+    margin-left: 145px;
+}
+
+.searchBarWrap{
+    padding: 50px 0 25px 350px;
+}
+
+.searchBar{
+    background-color: white;
+    border-radius: 9999px;
+    border: 1px solid black;
+    margin: 0 245px 0 0;
+    padding: 10px;
+}
+
+.searchInput{
+    width: 100%;
+    font-size: 1rem;
+    border-radius: 9999px;
+    border: none;
+    outline: none;
+    padding: 0 0 0 10px;
+}
+
+.boardTagWrap{
+    height: 50px;
+    border-top: 1px solid white;
+}
+
+.boardPostTag{
+    margin: 15px 0 0 50px;
+    float: left;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.boardMoreBtn{
+    margin: 15px 50px 0 0;
+    float: right;
+    border: none;
+    background: inherit;
+    font-size: 25px;
+    font-weight: 540;
+    cursor: pointer;
+}
+
+.boardListTag{
+    margin: 0 0 0 0;
+}
+
+.boardPost{
+    padding: 0px 80px 0 80px;
+}
+
+.boardTitle{
+    font-weight: 600;
+    padding: inherit;
+}
+
+.boardContents{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: inherit;
+    font-size: 15px;
+    height: 45px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 150%;
+}
+
+.boardLine{
+    border: 1px white solid;
+}
+
+.boardWrite{
+    cursor: pointer;
+    margin-top: 100px;
+    border: 0;
+    font-size: 20px;
+    margin-left: 500px;
+    background-color: inherit;
+}
+
+.boardWriteWrap{
+    background-color: white;
+    border-radius: 9999px;
+    border: 1px solid grey;
+    padding: 10px;
+}

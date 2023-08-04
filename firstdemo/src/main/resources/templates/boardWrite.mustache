@@ -1,0 +1,86 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>글 쓰기</title>
+    <link rel="stylesheet" href="/css/common.css?ver=1">
+    <link rel="stylesheet" href="/css/reset.css?ver=1">
+    <link rel="stylesheet" href="/css/boardWrite.css?ver=1">
+</head>
+<body>
+<div class="wrap">
+    <!-- 왼쪽 메뉴 바 -->
+    <div class="leftBarWrap">
+        <div class="leftBar">
+            <ul class="menu_ul">
+                <li class="menu_li">
+                    <a class="menu_a" href="board">
+                        <img class="menu_img" src="image/board.svg">
+                    </a>
+                </li>
+                <li class="menu_li">
+                    <a class="menu_a" href="#">
+                        <img class="menu_img" src="image/speech_bubble.svg">
+                    </a>
+                </li>
+                <li class="menu_li">
+                    <a class="menu_a" href="#">
+                        <img class="menu_img" src="image/circle.svg">
+                    </a>
+                </li>
+                <li class="menu_li">
+                    <a class="menu_a" href="#">
+                        <img class="menu_img" src="image/circle.svg">
+                    </a>
+                </li>
+                <li class="menu_li">
+                    <a class="menu_a" href="#">
+                        <img class="menu_img" src="image/settings.svg">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 왼쪽 메뉴 바 -->
+    <!-- 글 쓰기 -->
+    <div class="writeWrap">
+        <div class="uploadBtnWrap">
+            <button class="boardUpload" onclick="location.href='board'">
+                업로드
+            </button>
+        </div>
+        <div class="topWrap">
+            <!-- 글자 움직이는 것은 한글 폰트를 사용하지 않았기 때문-->
+            <!-- 게시글 제목 -->
+            <div class="titleWrap">
+                <h1 class="writeTitle">제목</h1>
+                <input class="titleInput">
+            </div>
+            <!-- 게시글 제목 -->
+            <!-- 게시글 태그 -->
+            <div class="tagWrap">
+                <h1 class="writeTag">태그</h1>
+                <input class="tagInput">
+            </div>
+            <!-- 게시글 태그 -->
+            <!-- 게시글 내용 -->
+            <div class="contentWrap">
+                <h1 class="writeContent">내용</h1>
+                <textarea class="contentInput"></textarea>
+            </div>
+            <!-- 게시글 내용 -->
+            <!-- 게시글 첨부파일 -->
+            <div class="fileWrap">
+                <h1 class="writeFile">첨부파일</h1>
+                <input type="file" multiple class="fileInput">
+            </div>
+            <!-- 게시글 첨부파일 -->
+        </div>
+    </div>
+    <!-- 글 쓰기 -->
+
+</div>
+</body>
+</html>
